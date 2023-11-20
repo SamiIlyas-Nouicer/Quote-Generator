@@ -16,6 +16,9 @@ body {
     width: 100vw;
     justify-content: space-around;
     background-color: rgb(247, 223, 192);
+    background-image: url("./assets/baskground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .box{
@@ -28,8 +31,42 @@ body {
     width: 50%;
     height: 50%;
     text-align: center;
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.21);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.8px);
+    -webkit-backdrop-filter: blur(2.8px);
+    border: 1px solid rgba(255, 255, 255, 0.59);
+    color: black;
+    font-weight: bold;
+    overflow-y: hidden;
 
 }
+
+.buttons {
+  display: flex;
+  gap: 2rem;
+}
+
+button{
+  padding: .5rem;
+  width: 15rem;
+  height: 3rem;
+  border-radius: 2rem;
+  border: none;
+  background-color: aliceblue;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all ease-in-out 0.2s;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+
+
 
 
 

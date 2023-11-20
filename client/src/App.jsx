@@ -13,7 +13,7 @@ function App() {
         const apiKey = "JXvDnt5zsl2uLYC6IrKHmw==mwrcdR93uMAim2FC" // Replace with your actual API key
 
         const response = await axios.get(
-          `https://api.api-ninjas.com/v1/quotes`,
+          `https://api.api-ninjas.com/v1/quotes?category=movies`,
           {
             headers: {
               "X-Api-Key": apiKey,
