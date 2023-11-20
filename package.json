@@ -1,7 +1,7 @@
 {
   "homepage": "http://SamiIlyas-Nouicer.github.io/React-Quote-Generator",
   "name": "quote-generator",
-  "private": f,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
