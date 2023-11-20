@@ -45,7 +45,6 @@ function App() {
         </div>
       )}
       <div className="buttons">
-        <button className="twitter">Tweet</button>
         <button className="new-quote" onClick={() => setRefresh(!refresh)}>
           Get a New Quote
         </button>
